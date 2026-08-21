@@ -1,0 +1,21 @@
+# run data lives outside the repo by default (~/arena), but ignore it
+# if anyone points --root inside the checkout
+arena.db
+arena.db-*
+*.sqlite
+state/
+workspace/
+inbox/
+STOP
+PAUSE
+
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+
+# consolidated archive of prior copies and run data - never commit
+_archive/
+
+# sandbox mount artefacts
+.fuse_hidden*
